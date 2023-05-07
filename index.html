@@ -30,17 +30,22 @@
     </nav>
   </header>
   <main>
-    <section id="overview">
-      <h1>Barra Beach House - Fortim</h1>
-      <h2>Sobre a Pousada</h2>
-      <p>A Pousada Barra Beach House está localizada em Fortim, uma cidade litorânea no estado do Ceará, Brasil. Com
-        quartos
-        confortáveis, piscina e jardim exuberante, a pousada oferece uma estadia aconchegante e relaxante para seus
-        hóspedes.
-        Além disso, a Pousada Barra Beach House fica a poucos passos da famosa Praia da Barra, uma das mais belas do
-        estado,
-        proporcionando fácil acesso a uma das principais atrações turísticas da região.</p>
-    </section>
+    <div class="container">
+      <div class="text">
+        <h1>Barra Beach House - Fortim</h1>
+        <h2>Sobre a Pousada</h2>
+        <p>A Pousada Barra Beach House está localizada em Fortim, uma cidade litorânea no estado do Ceará, Brasil. Com
+          quartos confortáveis, piscina e jardim exuberante, a pousada oferece uma estadia aconchegante e relaxante para
+          seus hóspedes. Além disso, a Pousada Barra Beach House fica a poucos passos da famosa Praia da Barra, uma das
+          mais belas do estado, proporcionando fácil acesso a uma das principais atrações turísticas da região.</p>
+      </div>
+      <div class="image">
+        <img src="images/barra-beach-house-fortim-fotos/barra-beach-house.jpg"
+          alt="Foto do chalé com 2 quartos - Barra Beach House Fortim - Quarto 1"
+          data-title="Foto do chalé com 2 quartos - Barra Beach House Fortim - Quarto 1">
+      </div>
+    </div>
+
     <section id="amenities">
       <h2>Facilidades</h2>
       <ul>
@@ -50,12 +55,41 @@
         <li>Amplo estacionamento</li>
       </ul>
     </section>
+
     <section id="location">
       <h2>Localização</h2>
       <p>A Barra Beach House está localizada em Fortim, Ceará, Brasil, a poucos passos da Praia da Barra, uma das praias
         mais famosas do estado.</p>
     </section>
   </main>
+
+
+  <style>
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .text {
+      width: 50%;
+      margin-top: 50px;
+    }
+
+    .image {
+      width: 400px;
+      height: 600px;
+      float: right;
+      text-align: right;
+    }
+
+    .image img {
+      width: 400px;
+      height: 600px;
+    }
+  </style>
+
   <footer>
     <p>&copy; 2023 Barra Beach House - Todos os direitos reservados</p>
     <div class="social-links">
