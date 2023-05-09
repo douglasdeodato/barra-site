@@ -67,6 +67,24 @@ footer p {
     padding: 1rem;
   }
 
+  .container {
+    display: flex;
+
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .image {
+    order: 1;
+    /* Change the order of the image */
+  }
+
+  .text {
+    margin-top: 0 !important;
+    order: 2;
+    width: 100% !important;
+  }
+
   nav {
     margin-top: 1rem;
   }
@@ -90,6 +108,7 @@ footer p {
   footer p {
     font-size: 0.8rem;
   }
+
 }
 
 
